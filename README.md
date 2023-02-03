@@ -33,18 +33,18 @@ If a client disconnects without sending the disconnect message, tell all connect
 Example:
 
 Client 1:
-/dm client2 "Hello there!"
-client1: Hello there!
+/dm client2 "Hello there!" \
+client1: Hello there! \
 client2: Hello!
 
 Client 2:
-client1: Hello there!
-/bc "Hello!"
+client1: Hello there! \
+/bc "Hello!" \
 client2: Hello!
 
 Client 3:
-client2: Hello!
-/dm client4 "Goodbye."
+client2: Hello! \
+/dm client4 "Goodbye." \
 server: User "client4" is not connected to the server.}_
 
 ## References
